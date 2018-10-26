@@ -12,6 +12,7 @@
 		0838C0E7217C987800333A42 /* HXAudioSynchronizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0838C0E6217C987800333A42 /* HXAudioSynchronizer.m */; };
 		0838C0EA217C9DE100333A42 /* HXAudioPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0838C0E9217C9DE100333A42 /* HXAudioPlayerController.m */; };
 		084D2BB8217DA07E00E6CA06 /* HXCacheAPIProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 084D2BB6217DA07E00E6CA06 /* HXCacheAPIProxy.m */; };
+		08ADF7EC218313550009FEAF /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08ADF7EB218313550009FEAF /* libavcodec.a */; };
 		08BB827F217B62F5001B2354 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BB827E217B62F5001B2354 /* AppDelegate.m */; };
 		08BB8282217B62F5001B2354 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BB8281217B62F5001B2354 /* ViewController.m */; };
 		08BB8285217B62F5001B2354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BB8283217B62F5001B2354 /* Main.storyboard */; };
@@ -67,6 +68,7 @@
 		0838C0E9217C9DE100333A42 /* HXAudioPlayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXAudioPlayerController.m; sourceTree = "<group>"; };
 		084D2BB6217DA07E00E6CA06 /* HXCacheAPIProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCacheAPIProxy.m; sourceTree = "<group>"; };
 		084D2BB7217DA07E00E6CA06 /* HXCacheAPIProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCacheAPIProxy.h; sourceTree = "<group>"; };
+		08ADF7EB218313550009FEAF /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
 		08BB827A217B62F5001B2354 /* AudioPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BB827D217B62F5001B2354 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08BB827E217B62F5001B2354 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				08BB833C217B691B001B2354 /* AudioToolbox.framework in Frameworks */,
 				08BB833A217B690F001B2354 /* libz.tbd in Frameworks */,
 				08BB8338217B6905001B2354 /* libbz2.tbd in Frameworks */,
+				08ADF7EC218313550009FEAF /* libavcodec.a in Frameworks */,
 				08BB8336217B68FA001B2354 /* libiconv.tbd in Frameworks */,
 				08BB8331217B68D0001B2354 /* libavdevice.a in Frameworks */,
 				08BB8333217B68D0001B2354 /* libswscale.a in Frameworks */,
@@ -546,6 +549,7 @@
 		08BB8325217B68CF001B2354 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				08ADF7EB218313550009FEAF /* libavcodec.a */,
 				08BB8326217B68D0001B2354 /* libavutil.a */,
 				08BB8327217B68D0001B2354 /* libavfilter.a */,
 				08BB8329217B68D0001B2354 /* libavformat.a */,

@@ -1,0 +1,2 @@
+libavcodec.a filter=lfs diff=lfs merge=lfs -text
+FFmpeg-iOS/lib/libavcodec.a filter=lfs diff=lfs merge=lfs -text
